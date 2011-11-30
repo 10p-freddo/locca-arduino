@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498F939B1480F34C006EA4BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498F939A1480F34C006EA4BE /* UIKit.framework */; };
+		498F939D1480F34C006EA4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498F939C1480F34C006EA4BE /* Foundation.framework */; };
+		498F939F1480F34C006EA4BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498F939E1480F34C006EA4BE /* CoreGraphics.framework */; };
+		498F93A51480F34C006EA4BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498F93A31480F34C006EA4BE /* InfoPlist.strings */; };
+		498F93A71480F34C006EA4BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 498F93A61480F34C006EA4BE /* main.m */; };
+		498F93AB1480F34C006EA4BE /* LoccaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 498F93AA1480F34C006EA4BE /* LoccaAppDelegate.m */; };
+		498F93AE1480F34C006EA4BE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498F93AC1480F34C006EA4BE /* MainWindow.xib */; };
+		498F93B11480F34C006EA4BE /* LoccaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498F93B01480F34C006EA4BE /* LoccaViewController.m */; };
+		498F93B41480F34C006EA4BE /* LoccaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498F93B21480F34C006EA4BE /* LoccaViewController.xib */; };
+		49D6124714862FBE00A4A72F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6124314862FBE00A4A72F /* Default@2x.png */; };
+		49D6124814862FBE00A4A72F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6124414862FBE00A4A72F /* Icon.png */; };
+		49D6124914862FBE00A4A72F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6124514862FBE00A4A72F /* Icon@2x.png */; };
+		49D6124A14862FBE00A4A72F /* locca-remote.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D6124614862FBE00A4A72F /* locca-remote.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		498F93961480F34C006EA4BE /* Locca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		498F939A1480F34C006EA4BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		498F939C1480F34C006EA4BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		498F939E1480F34C006EA4BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		498F93A21480F34C006EA4BE /* Locca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Locca-Info.plist"; sourceTree = "<group>"; };
+		498F93A41480F34C006EA4BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498F93A61480F34C006EA4BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		498F93A81480F34C006EA4BE /* Locca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Locca-Prefix.pch"; sourceTree = "<group>"; };
+		498F93A91480F34C006EA4BE /* LoccaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoccaAppDelegate.h; sourceTree = "<group>"; };
+		498F93AA1480F34C006EA4BE /* LoccaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoccaAppDelegate.m; sourceTree = "<group>"; };
+		498F93AD1480F34C006EA4BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		498F93AF1480F34C006EA4BE /* LoccaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoccaViewController.h; sourceTree = "<group>"; };
+		498F93B01480F34C006EA4BE /* LoccaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoccaViewController.m; sourceTree = "<group>"; };
+		498F93B31480F34C006EA4BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LoccaViewController.xib; sourceTree = "<group>"; };
+		49D6124314862FBE00A4A72F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "images/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		49D6124414862FBE00A4A72F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = SOURCE_ROOT; };
+		49D6124514862FBE00A4A72F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		49D6124614862FBE00A4A72F /* locca-remote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "locca-remote.png"; path = "images/locca-remote.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498F93931480F34C006EA4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498F939B1480F34C006EA4BE /* UIKit.framework in Frameworks */,
+				498F939D1480F34C006EA4BE /* Foundation.framework in Frameworks */,
+				498F939F1480F34C006EA4BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498F938B1480F34C006EA4BE = {
+			isa = PBXGroup;
+			children = (
+				498F93A01480F34C006EA4BE /* Locca */,
+				498F93991480F34C006EA4BE /* Frameworks */,
+				498F93971480F34C006EA4BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498F93971480F34C006EA4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498F93961480F34C006EA4BE /* Locca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498F93991480F34C006EA4BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498F939A1480F34C006EA4BE /* UIKit.framework */,
+				498F939C1480F34C006EA4BE /* Foundation.framework */,
+				498F939E1480F34C006EA4BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		498F93A01480F34C006EA4BE /* Locca */ = {
+			isa = PBXGroup;
+			children = (
+				498F93A91480F34C006EA4BE /* LoccaAppDelegate.h */,
+				498F93AA1480F34C006EA4BE /* LoccaAppDelegate.m */,
+				498F93AC1480F34C006EA4BE /* MainWindow.xib */,
+				498F93AF1480F34C006EA4BE /* LoccaViewController.h */,
+				498F93B01480F34C006EA4BE /* LoccaViewController.m */,
+				498F93B21480F34C006EA4BE /* LoccaViewController.xib */,
+				498F93A11480F34C006EA4BE /* Supporting Files */,
+			);
+			path = Locca;
+			sourceTree = "<group>";
+		};
+		498F93A11480F34C006EA4BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498F93BA1480F5BA006EA4BE /* Images */,
+				498F93A21480F34C006EA4BE /* Locca-Info.plist */,
+				498F93A31480F34C006EA4BE /* InfoPlist.strings */,
+				498F93A61480F34C006EA4BE /* main.m */,
+				498F93A81480F34C006EA4BE /* Locca-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		498F93BA1480F5BA006EA4BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49D6124314862FBE00A4A72F /* Default@2x.png */,
+				49D6124414862FBE00A4A72F /* Icon.png */,
+				49D6124514862FBE00A4A72F /* Icon@2x.png */,
+				49D6124614862FBE00A4A72F /* locca-remote.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498F93951480F34C006EA4BE /* Locca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498F93B71480F34C006EA4BE /* Build configuration list for PBXNativeTarget "Locca" */;
+			buildPhases = (
+				498F93921480F34C006EA4BE /* Sources */,
+				498F93931480F34C006EA4BE /* Frameworks */,
+				498F93941480F34C006EA4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locca;
+			productName = Locca;
+			productReference = 498F93961480F34C006EA4BE /* Locca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498F938D1480F34C006EA4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Junction Software Ltd";
+			};
+			buildConfigurationList = 498F93901480F34C006EA4BE /* Build configuration list for PBXProject "Locca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 498F938B1480F34C006EA4BE;
+			productRefGroup = 498F93971480F34C006EA4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498F93951480F34C006EA4BE /* Locca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498F93941480F34C006EA4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498F93A51480F34C006EA4BE /* InfoPlist.strings in Resources */,
+				498F93AE1480F34C006EA4BE /* MainWindow.xib in Resources */,
+				498F93B41480F34C006EA4BE /* LoccaViewController.xib in Resources */,
+				49D6124714862FBE00A4A72F /* Default@2x.png in Resources */,
+				49D6124814862FBE00A4A72F /* Icon.png in Resources */,
+				49D6124914862FBE00A4A72F /* Icon@2x.png in Resources */,
+				49D6124A14862FBE00A4A72F /* locca-remote.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498F93921480F34C006EA4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498F93A71480F34C006EA4BE /* main.m in Sources */,
+				498F93AB1480F34C006EA4BE /* LoccaAppDelegate.m in Sources */,
+				498F93B11480F34C006EA4BE /* LoccaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		498F93A31480F34C006EA4BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498F93A41480F34C006EA4BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		498F93AC1480F34C006EA4BE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498F93AD1480F34C006EA4BE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		498F93B21480F34C006EA4BE /* LoccaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498F93B31480F34C006EA4BE /* en */,
+			);
+			name = LoccaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498F93B51480F34C006EA4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		498F93B61480F34C006EA4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498F93B81480F34C006EA4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locca/Locca-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Locca/Locca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		498F93B91480F34C006EA4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locca/Locca-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Locca/Locca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498F93901480F34C006EA4BE /* Build configuration list for PBXProject "Locca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498F93B51480F34C006EA4BE /* Debug */,
+				498F93B61480F34C006EA4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498F93B71480F34C006EA4BE /* Build configuration list for PBXNativeTarget "Locca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498F93B81480F34C006EA4BE /* Debug */,
+				498F93B91480F34C006EA4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498F938D1480F34C006EA4BE /* Project object */;
+}

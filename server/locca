@@ -1,0 +1,15 @@
+#!/bin/sh
+
+if [ "$1" = "start" ]; then
+    if kill -0 `cat /tmp/locca.pid 2> /dev/null` 2> /dev/null; then
+        echo "error: already started"
+        exit
+    fi
+    /opt/bin/python2.6 /opt/bin/locca.py > /dev/null 2> /tmp/locca.log & 
+    echo $! > /tmp/locca.pid
+fi
+
+if [ "$1" = "stop" ]; then
+    kill -TERM `cat /tmp/locca.pid`
+    rm /tmp/locca.pid
+fi
